@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Pvc.Sass", "src\Pvc.Sass.csproj", "{42FC7562-316A-4B98-9EEC-0C8900C4F106}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pvc.Sass", "src\Pvc.Sass.csproj", "{42FC7562-316A-4B98-9EEC-0C8900C4F106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2E90CEC-C77E-4FBC-ABE4-4AE75D0A487E}"
+	ProjectSection(SolutionItems) = preProject
+		pvcfile.csx = pvcfile.csx
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PvcSass
+namespace PvcPlugins
 {
     public class PvcSass : PvcPlugin
     {
