@@ -10,6 +10,14 @@ namespace PvcPlugins
 {
     public class PvcSass : PvcPlugin
     {
+        public override string[] SupportedTags
+        {
+            get
+            {
+                return new string[] { ".sass", ".scss" };
+            }
+        }
+
         public override IEnumerable<PvcCore.PvcStream> Execute(IEnumerable<PvcCore.PvcStream> inputStreams)
         {
             var resultStreams = new List<PvcStream>();
